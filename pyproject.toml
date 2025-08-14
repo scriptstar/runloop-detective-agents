@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "runloop-detective-agents"
+version = "1.0.0"
+description = "AI-powered detective agents for log analysis and debugging using Runloop's ephemeral infrastructure"
+authors = ["Your Name <you@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9"
+runloop-api-client = "*"
+openai = "*"
+ell-ai = {extras = ["sqlite"], version = "*"}
+python-dotenv = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
