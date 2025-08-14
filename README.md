@@ -77,9 +77,8 @@ Example output:
 ```
 INFO:agent:Starting agent demo
 INFO:agent:Creating devbox ...
-Here is the content of the final `script.py` file:
+Here is the content of the final script.py file:
 
-```python
 import sys
 import pyfiglet
 
@@ -89,18 +88,16 @@ if len(sys.argv) > 1:
     print(ascii_art)
 else:
     print('No input provided')
-```
 
 And here is the verbatim output from the last time the program was run:
 
-```
  _          _ _                          _                   
 | |__   ___| | | ___    _ __ _   _ _ __ | | ___   ___  _ __  
 | '_ \ / _ \ | |/ _ \  | '__| | | | '_ \| |/ _ \ / _ \| '_ \ 
 | | | |  __/ | | (_) | | |  | |_| | | | | | (_) | (_) | |_) |
 |_| |_|\___|_|_|\___/  |_|   \__,_|_| |_|_|\___/ \___/| .__/ 
                                                       |_|    
-```
+
 INFO:agent:Destroying devbox dbx_xxx...
 ```
 
