@@ -2,7 +2,7 @@
 name = "runloop-detective-agents"
 version = "1.0.0"
 description = "AI-powered detective agents for log analysis and debugging using Runloop's ephemeral infrastructure"
-authors = ["Your Name <you@example.com>"]
+authors = ["scriptstar"]
 package-mode = false
 
 [tool.poetry.dependencies]
